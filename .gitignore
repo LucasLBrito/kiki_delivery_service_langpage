@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Gulp-related build output directories
+# Replace 'dist', 'build', 'public/build' with your actual output directories
+dist/
+build/
+public/build/
+
+# Temporary files created by Gulp or other tools
+.tmp/
+*.log
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Environment variables (if used with dotenv or similar)
+.env
